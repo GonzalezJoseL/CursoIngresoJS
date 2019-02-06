@@ -6,5 +6,6 @@ function mostrar()
 	dato=prompt("Su nombre : ","Natalia Natalia");
 	alert(dato);
 
+
 }
 
