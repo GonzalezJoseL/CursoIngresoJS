@@ -6,6 +6,7 @@ function mostrar()
 	var descuentodeldiez;
 	var descuentoadicional;
 	var pagocontarjeta;
+	var mensaje
 
 	cantidadeproductos=prompt("Ingrese cantidad de productos");
 	cantidadeproductos=parseInt(cantidadeproductos);
@@ -16,11 +17,12 @@ function mostrar()
 	descuentodeldiez=((precioproductos*10)/100);
 	descuentoadicional=((precioproductos*25)/100);
 	
+	mensaje=
 
 	if (cantidadeproductos>2)
 		{
 			descuentodeldiez=((precioproductos*10)/100);
-			
+			mensaje=
 
 
 		}
