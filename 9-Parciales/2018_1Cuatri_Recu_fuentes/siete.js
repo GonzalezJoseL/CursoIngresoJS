@@ -1,26 +1,47 @@
 function mostrar()
 {
 
-var nota
-var fem
-var mas
-var promedio
+var contador=0;
+var nota;
+var sexo;
+var promedio;
+var acumulador;
+var sexonotamasbaja;
+var varonesmayor;
 
-
-nota=prompt("Ingrese su nota");
-nota=parseInt(nota);
-sexo=prompt("Ingrese su sexo")
-
-while (nota>0 && nota>11)
+while (contador<5)
 
 	{
 		nota=prompt("Ingrese la nota del alumno");
 		console.log(nota);
-		alert("su nota es : "+nota);
+		while(isNaN(nota)==true || nota<0 || nota>10)
+		
+		{
+			nota=prompt("Por favor reingrese la nota del alumno");
+			nota=parseInt(nota);
+		}
+
+		sexo=prompt("Ingrese el sexo del alumno")
+		while(isNaN(nota)==false || sexo!=f || sexo!=m)
+		{
+			sexo=prompt("Por favor reingrese su sexo");
+		}	
+
+		acumulador=acumulador+nota
+		if (contador==0);
+		{
+			notaMinima=nota
+			sexonotamasbaja=sexo;
+		}
+		else
+		{
+			if (notaMinima)
+		}
+
 	}
 
 
-
+contador=contador+1;
 
 
 
